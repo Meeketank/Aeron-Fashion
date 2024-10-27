@@ -21,6 +21,15 @@ body {
   color: #C3073F;
 }
 
+.contact {
+  color: black;
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: #C3073F;
+}
+
 .nav-link {
   color: #ffffff
 }
