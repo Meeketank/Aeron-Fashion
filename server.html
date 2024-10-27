@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Site Maintenance</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <head>
+        <title>Site Maintenance</title>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="icons/Logo.png" type="image/x-icon">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="server.css">
+        <script src="script.js"></script>
+        <!-- Nav Menu Section -->
+        <section>
+            <nav class="navbar navbar-expand-lg fixed-top top-banner">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img style="width: 110px;" src="images/Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Middle Space -->
+                  </ul>
+                  <div class="d-flex nav-menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#product">Product</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#sesonspecial">Season Specials</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="cart.html"><img class="nav-link" src="images/shopping-cart 1.png" width="50px" height="50px"
+                            alt="Shopping Cart" /></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+        </section>
+      </head>
+    <!-- Nav Menu Section -->
+    <section>
+        <nav class="navbar navbar-expand-lg fixed-top top-banner">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img style="width: 110px;" src="images/Logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- Middle Space -->
+              </ul>
+              <div class="d-flex nav-menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#product">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sesonspecial">Season Specials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="cart.html"><img class="nav-link" src="images/shopping-cart 1.png" width="50px" height="50px"
+                        alt="Shopping Cart" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </section>
+  </head>
+  <body>
+    <br><br>
+    <article>
+        <h1>We&rsquo;ll be back soon!</h1>
+        <div>
+            <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:meeketketan.tank178@gmail.com">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
+            <p>&mdash; The Team Aeron Fashion</p>
+            
+        </div>
+        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+            <p class="day"></p>
+            <p class="hour"></p>
+            <p class="minute"></p>
+            <p class="second"></p>
+        </div>
+    </article>
+    <script>
+        const countDown = () => {
+            const countDay = new Date('April 21, 2025 00:00:00');
+            const now = new Date();
+            const counter = countDay - now;
+            const second = 1000;
+            const minute = second * 60;
+            const hour = minute * 60;
+            const day = hour * 24;
+            const textDay = Math.floor(counter / day);
+            const textHour = Math.floor((counter % day) / hour);
+            const textMinute = Math.floor((counter % hour) / minute);
+            const textSecond = Math.floor((counter % minute) / second)
+            document.querySelector(".day").innerText = textDay + ' Days';
+            document.querySelector(".hour").innerText = textHour + ' Hours';
+            document.querySelector(".minute").innerText = textMinute + ' Minutes';
+            document.querySelector(".second").innerText = textSecond + ' Seconds';
+        }
+        countDown();
+        setInterval(countDown, 1000);
+    </script>
+  </body>
+</html>
