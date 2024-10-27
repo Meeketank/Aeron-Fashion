@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aeron Fashion</title>
+  <link rel="shortcut icon" href="icons/Logo.png" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <!-- Nav Menu Section -->
+    <section>
+      <nav class="navbar navbar-expand-lg fixed-top top-banner">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img style="width: 110px;" src="images/Logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- Middle Space -->
+            </ul>
+            <div class="d-flex nav-menu">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#product">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sesonspecial">Season Specials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="cart.html"><img class="nav-link" src="images/shopping-cart 1.png" width="50px" height="50px"
+                      alt="Shopping Cart" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- banner Section Slider -->
+    <section class="banner mb-5" style="background-color: aliceblue;">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-6">
+                <img class="img-fluid w-75" src="images/daco.png" alt="NIKE REACT">
+              </div>
+              <div class=" col-md-6 m-auto">
+                <h1 class="fw-bold display-4"><span style="color:#FA804C">NIKE
+                    REACT</span><br> NFINITY RUN 1</h1>
+                <p>Everybody is different, which is why we offer styles for everybody. One of the many reasons you
+                  can shop with peace of mind.</p>
+                <!-- <button class="add-to-cart" onclick="addToCart('NIKE REACT',6599,'images/daco.png')">Add to
+                  Cart</button> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <!-- Product Section -->
+    <section class="container mb-5">
+      <div class="formal-shoes">
+        <h1 class="fw-bold py-3" id="product">Products</h1>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-sm-12 mb-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid" src="images/Untitled design (1).png" alt="">
+                <h5 class="card-title fw-bold mt-4">NIKE TSHIRT SKY-BLUE</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional
+                  content.</p>
+                <div class="d-flex justify-content-between">
+                  <h3 class="fw-bold" style="color:#FA804C">Rs 1499</h3>
+                  <button class="add-to-cart"
+                    onclick="addToCart('NIKE TSHIRT SKY-BLUE', 1499,'images/Untitled design (1).png')">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 mb-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid" src="images/daco.png" alt="">
+                <h5 class="card-title fw-bold mt-4">NIKE REACT</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional
+                  content.</p>
+                <div class="d-flex justify-content-between">
+                  <h3 class="fw-bold" style="color:#FA804C">Rs 6599</h3>
+                  <button class="add-to-cart" onclick="addToCart('NIKE REACT', 6599,'images/daco.png')">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 mb-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid" src="images/Untitled design.png" alt="">
+                <h5 class="card-title fw-bold mt-4">ZARA Leather Jacket</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional
+                  content.</p>
+                <div class="d-flex justify-content-between">
+                  <h3 class="fw-bold" style="color:#FA804C">Rs 3099</h3>
+                  <button class="add-to-cart"
+                    onclick="addToCart('ZARA Leather Jacket', 3099,'images/Untitled design.png')">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 mb-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid" style="height: 387px; align-items: center; margin-left: 27px;" src="images/rbjacket.png" alt="">
+                <h5 class="card-title fw-bold mt-4">Jacket</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional
+                  content.</p>
+                <div class="d-flex justify-content-between">
+                  <h3 class="fw-bold" style="color:#FA804C">Rs 4532</h3>
+                  <button class="add-to-cart"
+                    onclick="addToCart('Premium Red Black Jacket', 4532,'images/rbjacket.png')">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 mb-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid" style="height: 387px; align-items: center; margin-left: 27px;" src="images/footballshoes-removebg-preview.png" alt="">
+                <h5 class="card-title fw-bold mt-4">Puma Football Shoes</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional
+                  content.</p>
+                <div class="d-flex justify-content-between">
+                  <h3 class="fw-bold" style="color:#FA804C">Rs 1999</h3>
+                  <button class="add-to-cart"
+                    onclick="addToCart('Puma Football Shoes', 1999,'images/footballshoes-removebg-preview.png')">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 mb-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid" style="height: 387px; align-items: center; margin-left: 27px" src="images/white_front-removebg-preview.png" alt="">
+                <h5 class="card-title fw-bold mt-4">Mercedes Sweatshirt</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional
+                  content.</p>
+                <div class="d-flex justify-content-between">
+                  <h3 class="fw-bold" style="color:#FA804C">Rs 8000</h3>
+                  <button class="add-to-cart"
+                    onclick="addToCart('Mercedes Sweatshirt', 8000,'images/white_front-removebg-preview.png')">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Season's specials -->
+    <section class="container mb-5" id="sesonspecial">
+      <div class="formal-shoes">
+        <h1 class="fw-bold py-3">SEASON'S SPECIALS</h1>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-sm-12 mb-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid" src="images/Aqua sports t shirt.png" alt="">
+                <h5 class="card-title fw-bold mt-4">Aqua Tshirt</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional
+                  content.</p>
+                <div class="d-flex justify-content-between">
+                  <h3 class="fw-bold" style="color:#FA804C">Rs 899</h3>
+                  <button class="add-to-cart"
+                    onclick="addToCart('Aqua Tshirt', 899,'images/Aqua sports t shirt.png')">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 mb-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid" src="images/Tracksuit updated.png" alt="">
+                <h5 class="card-title fw-bold mt-4">Tracksuit</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional
+                  content.</p>
+                <div class="d-flex justify-content-between">
+                  <h3 class="fw-bold" style="color:#FA804C">Rs 2099</h3>
+                  <button class="add-to-cart" onclick="addToCart('Tracksuit', 2099,'images/Tracksuit updated.png')">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 mb-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid" src="images/graphic updated.png" alt="">
+                <h5 class="card-title fw-bold mt-4">Drip Tshirt</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional
+                  content.</p>
+                <div class="d-flex justify-content-between">
+                  <h3 class="fw-bold" style="color:#FA804C">Rs 699</h3>
+                  <button class="add-to-cart" onclick="addToCart('Drip Tshirt', 699,'images/graphic updated.png')">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Support Section  -->
+    <section id="about" class="container mb-5 supporting">
+      <div class="row d-sm-flex lex-column-reverse">
+        <div class="col-lg-5 col-md-6 col-sm-12 d-sm-flex flex-sm-column-reverse">
+          <div class="container">
+            <div class=" row g-2">
+              <a href="Order/verify_order.html" class=verification>
+                <div class="col-12 d-flex align-items-center"
+                  style="box-shadow: 0px 0px 30px lightgrey; padding: 10px; border-radius: 10px; cursor: pointer;">
+                  <img class="img-fluid w-25 me-3" src="images/icon-1.png" alt="">
+                  <div class="flex-column">
+                    <h5 class="fw-bold">Verify your Order Id</h5>
+                    <p><small>Be safe when you order</small></p>
+                  </div>
+                </div>
+              </a>
+
+              <a><div class="col-12 d-flex align-items-center"
+                style="box-shadow: 0px 0px 30px lightgrey; padding: 10px; border-radius: 10px; cursor: pointer;">
+                <img class="img-fluid w-25 me-3" src="images/free.png" alt="">
+                <div class="flex-column">
+                  <h5 class="fw-bold">Free Exchanges</h5>
+                  <p><small>One of the many reasons you can shop with peace of mind.</small></p>
+                </div>
+              </div></a>
+              <div class="col-12 d-flex align-items-center"
+                style="box-shadow: 0px 0px 30px lightgrey; padding: 10px; border-radius: 10px; cursor: pointer;">
+                <img class="img-fluid w-25 me-3" src="images/support.png" alt="">
+                <div class="flex-column">
+                  <h5 class="fw-bold">Contact Our Seller</h5>
+                  <p><small>They are here to help you. That's literally what we pay them for.</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6 col-sm-12">
+          <img class="img-fluid" src="images/xmld.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contact"
+    class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top container">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      
+    </div>
+    <P class="footerc" style="text-align: center;"><b>© 2026 AERON FASHION PVT. LTD.  All rights reserved.</b></P>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex font">
+      <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-github"></i></a></li>
+    </ul>
+  </footer>
+  <script>
+    function addToCart(productName, price, imageUrl) {
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      let itemIndex = cart.findIndex(item => item.name === productName);
+      if (itemIndex !== -1) {
+        cart[itemIndex].quantity++;
+      } else {
+        cart.push({name: productName, price: price, quantity: 1, imageUrl: imageUrl});
+      }
+      localStorage.setItem('cart', JSON.stringify(cart));
+
+    }
+  </script>
+</body>
+
+</html>

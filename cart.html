@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aeron Fashion</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="cart.css">
+</head>
+
+<header>
+  <!-- Nav Menu Section -->
+  <section>
+    <nav class="navbar navbar-expand-lg fixed-top top-banner">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img style="width: 110px" src="icons/Logo.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Middle Space -->
+          </ul>
+          <div class="d-flex nav-menu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="cart.html"><img class="nav-link active" src="images/shopping-cart 1.png" width="50px" height="50px"
+                    alt="Shopping Cart" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+  </section>
+</header>
+
+<body>
+  <header>
+    <!-- Your existing header code -->
+  </header>
+  <br>
+  <section class="cart-items">
+    <h1 style="text-align: center; color: #FFFFFF;"><b>Cart</b></h1>
+    <table id="cart-table">
+      <thead>
+        <tr>
+          <th style="border-top-style: none; border-left-style: none;">Image</th>
+          <th style="border-top-style: none;">Product</th>
+          <th style="border-top-style: none;">Price</th>
+          <th style="border-top-style: none;">Quantity</th>
+          <th style="border-top-style: none;">Subtotal</th>
+          <th style="border-top-style: none; border-right-style: none;">Action</th>
+        </tr>
+      </thead>
+      <tbody id="cart-list">
+        <!-- Cart items will be displayed here -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="5" style="border-left-style: none; border-bottom-style: none;"><b>Total</b></td>
+          <td id="total" style="border-right-style: none; border-bottom-style: none;">$0.00</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br>
+    <center>
+      <a href="Billing/billing.html">
+        <button id="checkoutButton">Proceed To Checkout</button>
+      </a>
+
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #1A1A1D;;
+}
+
+.menu img {
+  width: 35%;
+}
+
+.nav-menu li {
+  margin-left: 15px;
+}
+
+.verification {
+  color: black;
+  text-decoration: none;
+}
+
+.verification:hover {
+  color: #C3073F;
+}
+
+.nav-link {
+  color: #ffffff
+}
+
+.top-banner {
+  background-color: #ff004c;
+  color: #ff0000
+}
+
+.banner {
+  background-color: #ffffff;
+  padding: 50px;
+  margin-top: -65px;
+  padding-top: 200px;
+}
+
+.casual-shoes img {
+  background-color: #F1F1F1;
+  border-radius: 200px;
+}
+
+.card {
+  border: none;
+  box-shadow: 9px 12px 20px lightgrey;
+  border-radius: 30px;
+}
+
+.supporting {
+  margin-top: 85px;
+}
+
+.nike-btn {
+  background-image: linear-gradient(180deg, #950740 0%, #C3073F 100%);
+  color: white;
+}
+
+.nike-btn:hover {
+  color: white;
+}
+
+.font li {
+  font-size: 30px;
+  margin-right: 25px;
+}
+
+.add-to-cart {
+  background-color: #C3073F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #950740;
+}
+
+.footerc{
+  color: #ff0000;
+  text-align: center;
+}
