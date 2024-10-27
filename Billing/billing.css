@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ff004c;
+  border: 2px solid;
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1f2833;
+  color: #FA804C;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FA804C;
+  color: #1f2833;
+}
+
+.homesend{
+  width: 100%;
+  padding: 10px;
+  background-color: #1f2833;
+  color: #FA804C;
+  border: none;
+  cursor: pointer;
+}
+

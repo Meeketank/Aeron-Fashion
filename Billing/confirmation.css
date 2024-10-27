@@ -1,0 +1,15 @@
+body {
+    background-color: #ff004c;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+  }
+
+.homesend,button {
+    width: fit-content;
+    padding: 10px;
+    background-color: #1f2833;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
